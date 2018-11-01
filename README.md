@@ -1,2 +1,2 @@
 # Titanic-Death-prediction-With-Machine-Learning
-Titanic Death Prediction With Machine Learning
+Machine learning project for predicting the deaths on Titanic dataset using logistic regression model(scikit learn).
