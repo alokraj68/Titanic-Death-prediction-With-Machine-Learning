@@ -30,3 +30,4 @@ Here are some insights we had analysing the Data.
 * We decided to unite Age and Pclass due to the correlation with results
 * Names are unique in the dataset, so they are useless without preprocessing
 * Dividing age feature by groups is important to improve Machine Learning performance.
+  
