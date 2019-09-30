@@ -9,14 +9,12 @@ mean=df['Age'].mean()
 
 df['Age'].fillna(mean,inplace=True)
 
-
 Pclass=pd.get_dummies(df['Pclass'])
 Sex=pd.get_dummies(df['Sex'])
 Age=pd.get_dummies(df['Age'])
 
 df=pd.concat([df,Pclass,Sex,Age],axis=1)
 df.drop(['PassengerId','Sex','Age','Pclass','Name','Ticket','Cabin','SibSp','Parch','Fare','Embarked'],axis=1,inplace=True)
-
 
 
 x=df.drop('Survived',axis=1)
